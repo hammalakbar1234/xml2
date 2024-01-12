@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE person [
+    <!ELEMENT person (persondata+)>
+    <!ELEMENT persondata (name,course,age,email)>
+    <!ELEMENT name (#PCDATA)> 
+    <!ELEMENT course (#PCDATA)> 
+    <!ELEMENT age (#PCDATA)> 
+    <!ELEMENT email (#PCDATA)> 
+    <!ATTLIST persondata id CDATA #REQUIRED>
+
+]>
+<person>
+    <persondata id="25">
+        <name>hammal</name>
+        <course>dism</course>
+        <age>19</age>
+        <email>abc@email.com</email>
+    </persondata>
+    <persondata id="25">
+        <name>hammal</name>
+        <course>dism</course>
+        <age>19</age>
+        <email>abc@email.com</email>
+    </persondata>
+    <persondata id="25">
+        <name>hammal</name>
+        <course>dism</course>
+        <age>19</age>
+        <email>abc@email.com</email>
+    </persondata>
+</person>
